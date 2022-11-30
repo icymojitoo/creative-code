@@ -1,0 +1,31 @@
+[package]
+name = "creative-code"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nannou = "0.18.1"
+nannou_egui = "0.5.0"
+
+[[example]]
+name = "sketch"
+path = "examples/templates/sketch.rs"
+
+[[example]]
+name = "grid"
+path = "examples/templates/grid.rs"
+
+[[example]]
+name = "egui"
+path = "examples/templates/egui.rs"
+
+[[example]]
+name = "app"
+path = "examples/templates/app.rs"
+
+[[example]]
+name="first_sketch"
+path="examples/sketches/first_sketch.rs"
+
